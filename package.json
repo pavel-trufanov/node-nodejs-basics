@@ -4,7 +4,22 @@
   "description": "This repository is the part of nodejs-assignments https://github.com/AlreadyBored/nodejs-assignments",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fs:copy": "node ./exec/fs/copy.js",
+    "fs:create": "node ./exec/fs/create.js",
+    "fs:list": "node ./exec/fs/list.js",
+    "fs:read": "node ./exec/fs/read.js",
+    "fs:remove": "node ./exec/fs/remove.js",
+    "fs:rename": "node ./exec/fs/rename.js",
+    "cli:parse-env": "node ./exec/cli/parseEnv.js",
+    "cli:parse-args": "node ./exec/cli/parseArgs.js --propName value --prop2name value2",
+    "hash:calculate-hash": "node ./exec/hash/calculateHash.js",
+    "streams:read": "node ./exec/streams/readStream.js",
+    "streams:write": "node ./exec/streams/write.js",
+    "streams:transform": "node ./exec/streams/transform.js",
+    "zip:compress": "node ./exec/zip/compress.js",
+    "zip:decompress": "node ./exec/zip/decompress.js",
+    "wt:workers": "node ./exec/wt/performCalculations.js"
   },
   "repository": {
     "type": "git",
